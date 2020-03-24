@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://f2.photoblog.pl/fbl-2020/202003/175768417.jpg?fbclid=IwAR1vRI2LDPYQUX4jJNZGJLkFcNARvMdiX0HS_7Y6jaCodnSwzc4VoliEDgw);
+    background-repeat: repeat;
+    background-size: 3000 px 1000 px;
+    color: navy;
+}
+h2 {
+    font-family: sans-serif;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    color: darkblue;
+    padding: 20px;
+}
+.image-border {
+    border-color: pink;
+    border-width: 50px;
+    border-style: solid
+    border-radious: 15%;
+}
+.flex-item {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+.flex-item img{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
